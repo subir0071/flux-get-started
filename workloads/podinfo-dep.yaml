@@ -33,7 +33,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: subir0071/petclinic:latest
+        image: subir0071/pet-clinic:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9898
